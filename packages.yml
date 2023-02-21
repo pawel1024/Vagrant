@@ -1,0 +1,8 @@
+---
+- name: instaluj taski
+  hosts: local
+  connection: local
+  become: true
+  roles:
+  - packages
+  - user
